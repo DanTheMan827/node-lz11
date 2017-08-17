@@ -1,0 +1,18 @@
+{
+  "name": "lz11",
+  "version": "1.0.0",
+  "description": "LZ11 decompression algorithm.",
+  "main": "lz11.js",
+  "scripts": {
+    "build-docs": "jsdoc2md --template README.template.md lz11.js > README.md"
+  },
+  "keywords": [
+    "lz11",
+    "decompression"
+  ],
+  "author": "DanTheMan827",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdoc-to-markdown": "^3.0.0"
+  }
+}
