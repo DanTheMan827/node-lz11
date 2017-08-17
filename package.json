@@ -1,10 +1,14 @@
 {
   "name": "lz11",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LZ11 decompression algorithm.",
   "main": "lz11.js",
   "scripts": {
     "build-docs": "jsdoc2md --template README.template.md lz11.js > README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanTheMan827/node-lz11.git"
   },
   "keywords": [
     "lz11",
@@ -12,6 +16,10 @@
   ],
   "author": "DanTheMan827",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanTheMan827/node-lz11/issues"
+  },
+  "homepage": "https://github.com/DanTheMan827/node-lz11#readme",
   "devDependencies": {
     "jsdoc-to-markdown": "^3.0.0"
   }
