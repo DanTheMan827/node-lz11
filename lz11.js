@@ -23,7 +23,7 @@
  * @name   decompress
  * @param  {Buffer} inputBuffer          LZ11 compressed buffer
  * @param  {Integer} maxDecompressedSize The maximum size for the output buffer
- * @return {Buffer}                      The decompressed data buffer
+ * @return {Promise<Buffer>}             A promise that resolves to the decompressed data buffer
  */
 function lz11Decompress (inputBuffer, maxDecompressedSize) {
   return new Promise(function (resolve, reject) {

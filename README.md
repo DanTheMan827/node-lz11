@@ -7,11 +7,11 @@ Decompresses a LZ11 compressed buffer
 # API
 <a name="decompress"></a>
 
-## decompress ⇒ <code>Buffer</code>
+## decompress ⇒ <code>Promise.&lt;Buffer&gt;</code>
 Decompresses a LZ11 compressed buffer
 
 **Kind**: global variable  
-**Returns**: <code>Buffer</code> - The decompressed data buffer  
+**Returns**: <code>Promise.&lt;Buffer&gt;</code> - A promise that resolves to the decompressed data buffer  
 
 | Param | Type | Description |
 | --- | --- | --- |

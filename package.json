@@ -1,6 +1,6 @@
 {
   "name": "lz11",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "LZ11 decompression algorithm.",
   "main": "lz11.js",
   "scripts": {
