@@ -4,7 +4,8 @@
   "description": "LZ11 decompression algorithm.",
   "main": "lz11.js",
   "scripts": {
-    "build-docs": "jsdoc2md --template README.template.md lz11.js > README.md"
+    "build-docs": "jsdoc2md --template README.template.md lz11.js > README.md",
+    "test": "exit 0"
   },
   "repository": {
     "type": "git",
